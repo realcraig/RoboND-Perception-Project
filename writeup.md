@@ -28,6 +28,8 @@ You're reading it!
 ### Exercise 1, 2 and 3 pipeline implemented
 #### 1. Complete Exercise 1 steps. Pipeline for filtering and RANSAC plane fitting implemented.
 
+Please see the [implementation in project_template.py](https://github.com/realcraig/RoboND-Perception-Project/blob/master/pr2_robot/scripts/project_template.py).
+
 Here's a picture of the table top after applying pass through and RANSAC filtering with plane fitting. I used two pass through fitlers, the first along the z axis to remove everything but the table top and objects and the second along the x axis to remove the front of the table.
 
 ![image1](images/image1.png)
@@ -55,6 +57,10 @@ I implemented recognition and applied it to test worlds 1, 2, and 3.
 #### 1. For all three tabletop setups (`test*.world`), perform object recognition, then read in respective pick list (`pick_list_*.yaml`). Next construct the messages that would comprise a valid `PickPlace` request output them to `.yaml` format.
 
 Please see the included yaml files for output from the three test scenarios.
+
+[output_1.yaml](https://github.com/realcraig/RoboND-Perception-Project/blob/master/output_1.yaml)
+[output_2.yaml](https://github.com/realcraig/RoboND-Perception-Project/blob/master/output_2.yaml)
+[output_3.yaml](https://github.com/realcraig/RoboND-Perception-Project/blob/master/output_3.yaml)
 
 ### Discussion
 
